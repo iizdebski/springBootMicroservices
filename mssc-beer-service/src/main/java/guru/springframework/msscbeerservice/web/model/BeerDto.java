@@ -28,7 +28,7 @@ public class BeerDto {
     @Null
     private OffsetDateTime createdDate;
 
-    @Null 
+    @Null
     private OffsetDateTime lastModifiedDate;
 
     @NotBlank
