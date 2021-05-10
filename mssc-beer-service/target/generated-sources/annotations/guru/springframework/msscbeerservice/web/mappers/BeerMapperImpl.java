@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-05-08T22:37:23+0300",
+    date = "2021-05-10T13:37:40+0300",
     comments = "version: 1.3.0.Final, compiler: javac, environment: Java 11.0.7 (AdoptOpenJDK)"
 )
 @Component
@@ -21,7 +21,7 @@ public class BeerMapperImpl implements BeerMapper {
     private DateMapper dateMapper;
 
     @Override
-    public BeerDto BeerToBeerDto(Beer beer) {
+    public BeerDto beerToBeerDto(Beer beer) {
         if ( beer == null ) {
             return null;
         }
@@ -45,7 +45,7 @@ public class BeerMapperImpl implements BeerMapper {
     }
 
     @Override
-    public Beer BeerDtoToBeer(BeerDto dto) {
+    public Beer beerDtoToBeer(BeerDto dto) {
         if ( dto == null ) {
             return null;
         }
