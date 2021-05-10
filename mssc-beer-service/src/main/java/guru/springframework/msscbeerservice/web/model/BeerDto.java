@@ -14,10 +14,6 @@ import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
 
-/**
- * Created by jt on 2019-05-12.
- */
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -44,9 +40,8 @@ public class BeerDto {
     @NotNull
     private BeerStyleEnum beerStyle;
 
-    @Positive
     @NotNull
-    private Long upc;
+    private String upc;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING)
     @Positive
@@ -54,5 +49,4 @@ public class BeerDto {
     private BigDecimal price;
 
     private Integer quantityOnHand;
-
 }
