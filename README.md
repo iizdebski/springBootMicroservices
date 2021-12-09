@@ -38,3 +38,23 @@
 * **Docker Droplets (aka Virtual Machines) in Digital Ocean**
 * **Spring Cloud Config in the cloud with Eureka**
 * **Docker Swarm Cluster for Spring Boot Microservices**
+
+<p align = "center">
+<img src="https://github.com/iizdebski/springBootMicroservices/blob/main/images/image_01.JPG">
+</p>
+
+<p align = "center">
+<img src="https://github.com/iizdebski/springBootMicroservices/blob/main/images/image_02.JPG">
+</p>
+
+<p align = "center">
+<img src="https://github.com/iizdebski/springBootMicroservices/blob/main/images/image_03.JPG">
+</p>
+
+<p align = "center">
+<img src="https://github.com/iizdebski/springBootMicroservices/blob/main/images/image_04.JPG">
+</p>
+
+<p align = "center">
+<img src="https://github.com/iizdebski/springBootMicroservices/blob/main/images/image_05.JPG">
+</p>
